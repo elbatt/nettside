@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="nb">
+  <head>
+    <meta charset="utf-8" />
+    <title>Elbatt – Fremtidens batteri i dag</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Tailwind via CDN for prototyping -->
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-slate-950 text-slate-50">
+    <!-- Navigasjon -->
+    <header
+      class="fixed inset-x-0 top-0 z-30 border-b border-white/10 bg-slate-950/70 backdrop-blur"
+    >
+      <nav class="mx-auto flex max-w-6xl items-center justify-between px-4 py-3">
+        <a href="#top" class="flex items-center gap-2">
+          <span class="h-8 w-8 rounded-full bg-emerald-500"></span>
+          <span class="text-sm font-semibold tracking-wide">ELBATT</span>
+        </a>
+        <div class="hidden gap-6 text-sm font-medium md:flex">
+          <a href="#produkter" class="hover:text-emerald-400">Produkter</a>
+          <a href="#tjenester" class="hover:text-emerald-400">Tjenester</a>
+          <a href="#om-oss" class="hover:text-emerald-400">Om oss</a>
+          <a href="#kontakt" class="hover:text-emerald-400">Kontakt</a>
+        </div>
+        <a
+          href="#kontakt"
+          class="hidden rounded-full bg-emerald-500 px-4 py-2 text-xs font-semibold uppercase tracking-wide text-white hover:bg-emerald-600 md:inline-block"
+        >
+          Kontakt oss
+        </a>
+      </nav>
+    </header>
+
+    <main id="top" class="flex flex-col">
+      <!-- HERO MED VIDEO -->
+      <section class="relative h-screen overflow-hidden">
+        <video
+          class="absolute inset-0 h-full w-full object-cover"
+          autoplay
+          muted
+          loop
+          playsinline
+        >
+          <source src="/video/elbatt-hero.mp4" type="video/mp4" />
+        </video>
+
+        <!-- Mørkt overlay -->
+        <div class="absolute inset-0 bg-slate-950/55"></div>
+
+        <!-- Innhold -->
+        <div class="relative z-10 flex h-full items-center">
+          <div class="mx-auto flex max-w-5xl flex-col items-center px-6 text-center">
+            <h1
+              class="text-3xl font-semibold tracking-tight sm:text-5xl lg:text-6xl"
+            >
+              Fremtidens batteri&nbsp;i&nbsp;dag
+            </h1>
+            <p class="mt-4 max-w-2xl text-sm text-slate-100 sm:text-lg">
+              Elbatt leverer høykvalitets elbilbatterier og energiløsninger
+              basert på CATL‑teknologi – med fokus på sikkerhet, ytelse og
+              bærekraft.
+            </p>
+            <div class="mt-8 flex flex-wrap justify-center gap-4">
+              <a
+                href="#produkter"
+                class="rounded-full bg-emerald-500 px-8 py-3 text-xs font-semibold uppercase tracking-wide text-white hover:bg-emerald-600"
+              >
+                Utforsk produkter
+              </a>
+              <a
+                href="#tjenester"
+                class="rounded-full border border-white/50 px-8 py-3 text-xs font-semibold uppercase tracking-wide text-white hover:bg-white/10"
+              >
+                Se tjenester
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PRODUKTER -->
+      <section id="produkter" class="bg-slate-950 py-20">
+        <div class="mx-auto max-w-6xl px-6">
+          <h2 class="text-2xl font-semibold sm:text-3xl">
+            Batteriløsninger fra Elbatt
+          </h2>
+          <p class="mt-3 max-w-2xl text-sm text-slate-300">
+            Vi hjelper verksteder, forhandlere og bileiere med trygge og
+            moderne batteriløsninger – fra elbilbatterier til start- og
+            fritidsbatterier.
+          </p>
+
+          <div class="mt-10 grid gap-6 md:grid-cols-3">
+            <article class="rounded-2xl bg-slate-900/60 p-6">
+              <h3 class="text-lg font-semibold">Elbilbatterier</h3>
+              <p class="mt-2 text-sm text-slate-300">
+                Premium erstatningsbatterier basert på CATL‑teknologi, med
+                vekt på rekkevidde, sikkerhet og lang levetid.
+              </p>
+            </article>
+
+            <article class="rounded-2xl bg-slate-900/60 p-6">
+              <h3 class="text-lg font-semibold">Start- og forbruksbatterier</h3>
+              <p class="mt-2 text-sm text-slate-300">
+                Løsninger for personbil, varebil og tyngre kjøretøy – tilpasset
+                nordiske forhold.
+              </p>
+            </article>
+
+            <article class="rounded-2xl bg-slate-900/60 p-6">
+              <h3 class="text-lg font-semibold">Stasjonære energilagre</h3>
+              <p class="mt-2 text-sm text-slate-300">
+                Batteripakker for lager, industri og energilagring, med
+                skalerbare moduler og fjernovervåkning.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- TJENESTER -->
+      <section id="tjenester" class="bg-slate-950 py-20">
+        <div class="mx-auto max-w-6xl px-6">
+          <h2 class="text-2xl font-semibold sm:text-3xl">
+            Tjenester fra Elbatt
+          </h2>
+          <p class="mt-3 max-w-2xl text-sm text-slate-300">
+            Vi kombinerer batterikompetanse med praktisk bilfaglig erfaring,
+            slik at både verksteder og sluttkunder får trygge løsninger.
+          </p>
+
+          <div class="mt-10 grid gap-6 md:grid-cols-3">
+            <article class="rounded-2xl bg-slate-900/60 p-6">
+              <h3 class="text-lg font-semibold">Diagnose og rådgivning</h3>
+              <p class="mt-2 text-sm text-slate-300">
+                Vurdering av batterihelsen og anbefaling av riktig løsning –
+                reparasjon, bytte eller oppgradering.
+              </p>
+            </article>
+
+            <article class="rounded-2xl bg-slate-900/60 p-6">
+              <h3 class="text-lg font-semibold">Batteribytte og logistikk</h3>
+              <p class="mt-2 text-sm text-slate-300">
+                Effektive prosesser for inn‑ og utmontering, håndtering og
+                retur av brukte batterier.
+              </p>
+            </article>
+
+            <article class="rounded-2xl bg-slate-900/60 p-6">
+              <h3 class="text-lg font-semibold">Løsninger for bedrifter</h3>
+              <p class="mt-2 text-sm text-slate-300">
+                Rammeavtaler, volumleveranser og teknisk støtte for
+                verkstedkjeder, flåter og importører.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- OM OSS -->
+      <section id="om-oss" class="bg-slate-900 py-20">
+        <div class="mx-auto max-w-6xl px-6">
+          <h2 class="text-2xl font-semibold sm:text-3xl">Om Elbatt</h2>
+          <p class="mt-3 max-w-3xl text-sm text-slate-200">
+            Elbatt er etablert i Trondheim og bygger på mange års erfaring fra
+            bilbransjen og batteriteknologi. Vi samarbeider med ledende aktører
+            innen litium‑ion og særlig CATL, og har som mål å gjøre
+            batteribytte og energilagring enklere og tryggere for norske
+            kunder.
+          </p>
+        </div>
+      </section>
+
+      <!-- KONTAKT -->
+      <section id="kontakt" class="bg-slate-950 py-20">
+        <div class="mx-auto max-w-6xl px-6">
+          <h2 class="text-2xl font-semibold sm:text-3xl">Kontakt oss</h2>
+          <p class="mt-3 max-w-2xl text-sm text-slate-300">
+            Ta kontakt for pris, tekniske spørsmål eller samarbeid. Vi svarer
+            normalt innen én arbeidsdag.
+          </p>
+
+          <div class="mt-8 grid gap-10 md:grid-cols-2">
+            <form class="space-y-4">
+              <div>
+                <label class="block text-sm font-medium">Navn</label>
+                <input
+                  type="text"
+                  class="mt-1 w-full rounded-lg border border-slate-600 bg-slate-900 px-3 py-2 text-sm focus:border-emerald-500 focus:outline-none focus:ring-1 focus:ring-emerald-500"
+                />
+              </div>
+              <div>
+                <label class="block text-sm font-medium">E‑post</label>
+                <input
+                  type="email"
+                  class="mt-1 w-full rounded-lg border border-slate-600 bg-slate-900 px-3 py-2 text-sm focus:border-emerald-500 focus:outline-none focus:ring-1 focus:ring-emerald-500"
+                />
+              </div>
+              <div>
+                <label class="block text-sm font-medium">Melding</label>
+                <textarea
+                  rows="4"
+                  class="mt-1 w-full rounded-lg border border-slate-600 bg-slate-900 px-3 py-2 text-sm focus:border-emerald-500 focus:outline-none focus:ring-1 focus:ring-emerald-500"
+                ></textarea>
+              </div>
+              <button
+                type="submit"
+                class="rounded-full bg-emerald-500 px-8 py-3 text-xs font-semibold uppercase tracking-wide text-white hover:bg-emerald-600"
+              >
+                Send melding
+              </button>
+            </form>
+
+            <div class="space-y-3 text-sm text-slate-300">
+              <p><span class="font-semibold">E‑post:</span> post@elbatt.no</p>
+              <p><span class="font-semibold">Telefon:</span> +47 00 00 00 00</p>
+              <p><span class="font-semibold">Adresse:</span> Trondheim, Norge</p>
+              <p class="text-xs text-slate-500">
+                Legg gjerne til eksakt adresse og organisasjonsnummer her.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="border-t border-slate-800 bg-slate-950 py-6">
+      <div class="mx-auto flex max-w-6xl flex-col items-center justify-between gap-3 px-6 text-xs text-slate-500 sm:flex-row">
+        <p>© <span id="year"></span> Elbatt. Alle rettigheter reservert.</p>
+        <p>Nettside levert med Tailwind&nbsp;CSS.</p>
+      </div>
+      <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+      </script>
+    </footer>
+  </body>
+</html>
