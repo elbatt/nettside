@@ -3,6 +3,10 @@
   <head>
     <meta charset="utf-8" />
     <title>Elbatt – Fremtidens batteri i dag</title>
+    <meta
+      name="description"
+      content="Elbatt leverer elbilbatterier og energiløsninger basert på CATL-teknologi – med fokus på sikkerhet, ytelse og bærekraft."
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- Tailwind via CDN for prototyping -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -12,7 +16,9 @@
     <header
       class="fixed inset-x-0 top-0 z-30 border-b border-white/10 bg-slate-950/70 backdrop-blur"
     >
-      <nav class="mx-auto flex max-w-6xl items-center justify-between px-4 py-3">
+      <nav
+        class="mx-auto flex max-w-6xl items-center justify-between px-4 py-3"
+      >
         <a href="#top" class="flex items-center gap-2">
           <span class="h-8 w-8 rounded-full bg-emerald-500"></span>
           <span class="text-sm font-semibold tracking-wide">ELBATT</span>
@@ -42,7 +48,8 @@
           loop
           playsinline
         >
-          <source src="/video/elbatt-hero.mp4" type="video/mp4" />
+          <!-- Viktig: relativ sti for GitHub Pages -->
+          <source src="video/elbatt-hero.mp4" type="video/mp4" />
         </video>
 
         <!-- Mørkt overlay -->
@@ -50,7 +57,9 @@
 
         <!-- Innhold -->
         <div class="relative z-10 flex h-full items-center">
-          <div class="mx-auto flex max-w-5xl flex-col items-center px-6 text-center">
+          <div
+            class="mx-auto flex max-w-5xl flex-col items-center px-6 text-center"
+          >
             <h1
               class="text-3xl font-semibold tracking-tight sm:text-5xl lg:text-6xl"
             >
@@ -95,8 +104,8 @@
             <article class="rounded-2xl bg-slate-900/60 p-6">
               <h3 class="text-lg font-semibold">Elbilbatterier</h3>
               <p class="mt-2 text-sm text-slate-300">
-                Premium erstatningsbatterier basert på CATL‑teknologi, med
-                vekt på rekkevidde, sikkerhet og lang levetid.
+                Premium erstatningsbatterier basert på CATL‑teknologi, med vekt
+                på rekkevidde, sikkerhet og lang levetid.
               </p>
             </article>
 
@@ -142,8 +151,8 @@
             <article class="rounded-2xl bg-slate-900/60 p-6">
               <h3 class="text-lg font-semibold">Batteribytte og logistikk</h3>
               <p class="mt-2 text-sm text-slate-300">
-                Effektive prosesser for inn‑ og utmontering, håndtering og
-                retur av brukte batterier.
+                Effektive prosesser for inn‑ og utmontering, håndtering og retur
+                av brukte batterier.
               </p>
             </article>
 
@@ -226,7 +235,9 @@
     </main>
 
     <footer class="border-t border-slate-800 bg-slate-950 py-6">
-      <div class="mx-auto flex max-w-6xl flex-col items-center justify-between gap-3 px-6 text-xs text-slate-500 sm:flex-row">
+      <div
+        class="mx-auto flex max-w-6xl flex-col items-center justify-between gap-3 px-6 text-xs text-slate-500 sm:flex-row"
+      >
         <p>© <span id="year"></span> Elbatt. Alle rettigheter reservert.</p>
         <p>Nettside levert med Tailwind&nbsp;CSS.</p>
       </div>
